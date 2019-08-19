@@ -1,0 +1,45 @@
+name: Mariem Bouhadda
+output_dir: '.'
+navbar:
+  title: Mariem Bouhadda
+  type: inverse
+  left:
+  - text: Home
+    icon: fa-home
+    href: https://maryem-bouhadda.github.io/index.html
+  - text: Bioinformatic Analysis
+    menu:
+      - text: Projects
+      - text: Blog
+    href: https://mariembouhadda.shinyapps.io/breastt_cancer_app/
+  - text: Data Science
+    menu: 
+      - text: Projects
+      - text: Blog
+  - text: Biology 
+    menu: 
+      - text: Molecular Biology
+      - text: Genomics and genetics
+      - text: Cancer biology
+    href: map.html
+  - text: Database Management
+    href: mariemcv.html
+    
+  - text: Others
+      
+    
+  right:
+  - icon: fa-envelope fa-lg
+    href: contact.html
+  - icon: fa-github fa-lg
+    href: https://github.com/Mariem-Bouhadda
+  - icon: fa-linkedin fa-lg
+    href: https://www.linkedin.com/in/mariem-bouhadda/
+ 
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
